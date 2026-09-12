@@ -1,0 +1,60 @@
+
+
+name: dsrp_modelling_foundational_vector_query
+
+query: |
+  Retrieve sections describing modelling approaches, statistical models,
+  machine learning algorithms, or analytical techniques used in the study.
+
+  Focus on passages explaining:
+
+  - statistical modelling methods
+  - machine learning algorithms
+  - model assumptions
+  - training and testing procedures
+  - predictive modelling approaches
+  - binary classification or classification-step procedures
+  - probability-of-class / probability-of-event modelling
+  - continuous-outcome prediction or regression-step procedures
+  - dependent variable definitions for continuous targets
+  - hypothesis-driven statistical analysis
+  - regression or econometric models
+  - elastic net models used for feature selection and prediction
+  - weekly log-return or return-forecasting targets
+  - classification models or classifiers
+  - logit or logistic models used for prediction
+  - classification trees or random forest classification trees
+  - clustering or customer segmentation approaches
+  - hierarchical clustering methods (including BIRCH-like variants)
+  - preprocessing steps using clustering before downstream ML training
+  - structure-discovery or data-partitioning approaches to create homogeneous groups
+  - optimisation or objective-function-based modelling approaches
+
+  Also retrieve passages describing:
+
+  - model evaluation procedures
+  - goodness-of-fit tests
+  - cross-validation
+  - prediction accuracy metrics
+  - segmentation quality or cluster validation procedures
+
+  Prioritise sections typically titled:
+
+  - Methodology
+  - Methods
+  - Data Analysis
+  - Analytical Framework
+  - Modelling Approach
+  - Model Development
+  - Statistical Analysis
+  - Machine Learning Model
+  - Algorithm Description
+  - Customer Segmentation
+  - Clustering Analysis
+  - Classification Step
+  - Binary Classification
+  - Regression Step
+  - Elastic Net Model
+  - Predictive Modelling
+
+k: 18

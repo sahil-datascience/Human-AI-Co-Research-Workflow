@@ -1,0 +1,16 @@
+name: ds_gatekeeper_vector_query
+k: 25
+description: >
+  Retrieve chunks related to modelling paradigms, dataset description,
+  machine learning, statistical methods, and computational infrastructure.
+
+query: |
+  Extract sections that describe:
+  - dataset description
+  - data sources
+  - modelling techniques
+  - algorithms
+  - machine learning
+  - statistical modelling
+  - NLP, clustering, deep learning
+  - computational infrastructure

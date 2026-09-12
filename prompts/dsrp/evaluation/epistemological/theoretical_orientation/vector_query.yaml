@@ -1,0 +1,25 @@
+name: dsrp_theoretical_orientation_vector_query
+
+description: >
+  Retrieve passages indicating the theoretical orientation,
+  conceptual framework, or knowledge contribution of the study.
+
+query: >
+  Extract passages describing theoretical frameworks,
+  conceptual models, research constructs, hypotheses derived
+  from theory, theoretical motivation of the study, or
+  statements explaining how the research contributes to
+  theoretical knowledge.
+
+  Focus on passages in sections such as:
+
+    - Introduction
+    - Theoretical background
+    - Conceptual framework
+    - Hypothesis development
+    - Discussion or contribution sections
+
+  Ignore general references to theories discussed only
+  in literature review without being applied in the study.
+
+k: 20

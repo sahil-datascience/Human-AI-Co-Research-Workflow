@@ -1,0 +1,35 @@
+name: dsrp_metrics_vector_query
+
+description: >
+  Retrieve passages describing how models or analytical procedures were
+  evaluated, validated, or assessed for performance in the study.
+
+query: >
+  Extract passages describing evaluation procedures, validation strategies,
+  and performance metrics applied in the current study.
+
+  Include general evaluation information such as accuracy, precision, recall,
+  F1 score, ROC/AUC, RMSE, MAE, MSE, R2, confusion matrix, cross-validation,
+  training/test split, calibration, goodness-of-fit, residual analysis,
+  effect sizes, chi-square tests, likelihood ratio tests, AIC, and BIC.
+
+  Also retrieve specialised metrics when relevant, including forecasting error
+  metrics for time-series analysis, topic coherence or perplexity for NLP,
+  Moran's I or spatial cross-validation for spatial analytics, modularity or
+  ERGM goodness-of-fit for network analysis, and AUROC, IoU, Dice, SDR, or
+  SIR for emerging modalities.
+
+  Validation procedure clues:
+  - train/test split: separate subsets for training and final testing
+    (e.g., 80/20 split)
+  - cross-validation: repeated fold-based training/testing
+    (e.g., 5-fold or 10-fold cross-validation)
+  - hold-out dataset: reserved evaluation set not used in model fitting
+    (e.g., untouched external validation set)
+  - temporal split: train on earlier periods and test on later periods
+    (e.g., out-of-time (OOT) test set)
+
+  Focus only on evaluation procedures applied to the models or analytical
+  approaches used in the current study.
+
+k: 20

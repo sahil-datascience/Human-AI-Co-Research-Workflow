@@ -1,0 +1,30 @@
+
+
+name: dsrp_ethical_social_vector_query
+
+description: >
+  Retrieve passages describing ethical considerations,
+  privacy protection, bias mitigation, fairness diagnostics,
+  or societal implications of the study.
+
+query: >
+  Extract passages discussing:
+
+  - data privacy
+  - anonymisation
+  - ethical considerations
+  - bias in datasets
+  - fairness of algorithms
+  - representativeness of data
+  - societal implications of results
+  - responsible use of AI
+
+  Focus on sections such as:
+
+  - methodology
+  - data description
+  - limitations
+  - discussion
+  - ethical statements
+
+k: 15

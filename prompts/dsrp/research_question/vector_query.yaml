@@ -1,0 +1,22 @@
+name: research_question_vector_query
+
+description: >
+  Retrieve passages relevant to identifying the dominant research question type
+  under the DSRP framework.
+
+query: >
+  Extract passages that describe:
+  - research aims, research questions, objectives, or hypotheses,
+  - study design or experimental setup,
+  - modelling purpose (prediction vs explanation),
+  - forecasting objectives,
+  - hypothesis testing or statistical inference,
+  - causal inference, treatment/control groups, quasi-experiments,
+  - evaluation metrics (accuracy, RMSE, AUC),
+  - statements about what the study seeks to determine, explain, test, or predict.
+  - optimisation, decision-making, or policy recommendation objectives,
+  - validation procedures such as train/test split or cross-validation,
+  - model evaluation metrics (RMSE, MAE, accuracy, AUC),
+  - statements comparing model performance
+
+k: 14

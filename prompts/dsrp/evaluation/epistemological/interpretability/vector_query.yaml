@@ -1,0 +1,60 @@
+
+
+name: dsrp_interpretability_vector_query
+
+description: >
+  Retrieve passages describing model interpretability,
+  explainability techniques, transparency discussion,
+  or methods used to interpret model outputs.
+
+query: >
+  Extract passages discussing:
+
+  - model interpretability
+  - explainable AI methods
+  - feature importance
+  - model transparency
+  - explanation of model predictions
+  - black-box model concerns
+  - explicit discussion of interpretability/transparency/explainability
+  - statements about model transparency for trust or decision-making
+  - explicit statements that interpretability/transparency is not discussed
+
+  Also retrieve passages describing inherently interpretable
+  statistical-comparative workflows, including:
+
+  - t-tests
+  - Mann-Whitney-Wilcoxon tests
+  - kernel density estimation (KDE)
+  - density/distribution comparison plots (e.g., mobile vs desktop)
+  - directly interpretable outputs such as mean differences,
+    statistical significance, or visually interpretable
+    distribution differences
+  - explicit statements that no black-box model is used
+  - explicit statements that no post-hoc XAI method is used
+  - topic modelling outputs interpreted by authors
+  - network analysis structures/centrality/communities interpreted by authors
+  - simulation-based analytical outputs interpreted by authors
+
+  Also retrieve passages indicating this distinction:
+  - interpretable methods are used
+  - but no explicit interpretability/transparency/explainability
+    reflection is provided
+
+  Also retrieve passages describing post-hoc explanation evidence
+  relevant to transparency-level assignment, including:
+
+  - variable importance analysis
+  - feature importance rankings/scores
+
+  Also retrieve passages describing:
+
+  - SHAP
+  - LIME
+  - Grad-CAM
+  - DeepLIFT
+  - Layer-wise relevance propagation
+  - counterfactual explanation
+  - causal interpretation
+
+k: 15

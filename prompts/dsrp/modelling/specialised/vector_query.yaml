@@ -1,0 +1,52 @@
+
+
+name: dsrp_modelling_specialised_vector_query
+
+query: |
+  Retrieve sections describing modelling techniques, analytical methods,
+  algorithms, or modelling approaches used in the study.
+
+  Focus on passages discussing:
+
+  - modelling techniques or analytical models
+  - machine learning algorithms
+  - statistical modelling approaches
+  - time-series forecasting methods
+  - natural language processing methods
+  - spatial modelling techniques (Maps, Location)
+  - sub-district spatial analysis
+  - hotspot mapping
+  - network analysis methods
+  - image, audio, or video analytics
+  - computer vision (Vision AI)
+  - image data modelling
+  - photos used as data
+  - photographs used as data
+  - visual content analysis (VCA)
+
+  Include sections typically titled:
+
+  - Methodology
+  - Methods
+  - Data Analysis
+  - Analytical Framework
+  - Model Development
+  - Modelling Approach
+  - Machine Learning Model
+  - Algorithm Description
+  - sentiment analysis
+  - topic modelling
+  - text mining
+  - transformer models
+  - hotspot analysis
+  - sub-district mapping
+  - computer vision
+  - Vision AI
+  - visual content analysis
+
+  Prefer passages from:
+  - Methodology
+  - Methods
+  - Data Analysis
+
+k: 30

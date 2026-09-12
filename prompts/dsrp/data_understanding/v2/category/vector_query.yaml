@@ -1,0 +1,19 @@
+name: data_understanding_v2_category_vector_query
+
+description: >
+  Retrieve passages describing the source and origin of the data used in the study.
+
+query: >
+  Extract passages describing:
+  - data sources (e.g., TripAdvisor, GPS logs, booking records),
+  - dataset description,
+  - number of records,
+  - data collection methods,
+  - APIs or scraping,
+  - enterprise systems (PMS, CRM, ERP, reservation records),
+  - survey/questionnaire administration,
+  - official/government/statistical databases,
+  - file formats only when they are tied to the source description,
+  - preprocessing steps only when they explain the data source pipeline.
+
+k: 25

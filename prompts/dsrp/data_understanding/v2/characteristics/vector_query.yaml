@@ -1,0 +1,14 @@
+name: data_understanding_v2_characteristics_vector_query
+
+description: >
+  Retrieve passages describing temporal, spatial, textual, visual, and networked analytic use of the data.
+
+query: >
+  Extract passages describing:
+  - temporal analysis, trends, longitudinal or panel effects, lagged variables, before-after comparisons, forecasting, event-time or sequence dynamics,
+  - spatial or geographic analysis, location comparisons, origin-destination flows, country/region/city effects, geospatial variables,
+  - textual analysis, NLP, sentiment, topic modelling, text mining, embeddings, tokens, phrases, reviews, captions, OCR text,
+  - visual analysis, image/video content, visual embeddings, coded image categories, visual content analysis,
+  - networked or relational analysis, interaction terms, graph/network structures, cross-level dependencies.
+
+k: 25

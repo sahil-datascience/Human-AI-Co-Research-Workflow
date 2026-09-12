@@ -1,0 +1,74 @@
+
+name: data_preprocessing_transparency_vector_query
+
+description: >
+  Retrieve passages describing how data were prepared, cleaned, reduced, or transformed before modelling, including procedural details and rationale.
+
+query: >
+  CRITICAL: PREPROCESSING VS MODELLING BOUNDARY
+
+  In the DSRP framework, data pre-processing refers ONLY to operations
+  performed BEFORE modelling to prepare the dataset.
+
+  Operations embedded within model training (e.g., Lasso feature selection,
+  Random Forest variable importance, stepwise regression, regularization-based selection)
+  MUST NOT be considered data pre-processing.
+
+  If feature selection or transformation occurs ONLY as part of model estimation,
+  it MUST be treated as NOT REPORTED under data pre-processing.
+
+  Train/test split, cross-validation, and bootstrapping are evaluation procedures,
+  NOT data pre-processing.
+
+  Conceptual grouping, description, or categorisation of variables
+  DOES NOT qualify as data transformation.
+
+  Only explicit, technical preprocessing operations qualify.
+
+  Extract passages describing:
+  - data cleaning,
+  - missing value handling,
+  - noise removal,
+  - outlier treatment,
+  - deduplication,
+  - data quality checks,
+  - feature selection,
+  - dimensionality reduction,
+  - sampling,
+  - preprocessing steps,
+  - preprocessing pipeline order,
+  - train/validation preprocessing separation,
+  - normalization or scaling,
+  - encoding or discretization,
+  - data integration,
+  - feature engineering,
+  - imputation strategy,
+  - threshold/criterion/parameter choices used in preprocessing,
+  - rationale or justification for preprocessing decisions,
+  - statements that no preprocessing was applied,
+  - transformation of raw data prior to modelling,
+  - API/platform-based label generation from raw images/text (for example,
+    Google Cloud Vision AI labels, Google Vision API labels, OCR-derived tokens, tagging outputs),
+  - explicit pipeline from raw input to derived labels/features before modelling,
+  - preprocessing steps where generated labels/features are later used in
+    topic modelling (for example, LDA),
+  - descriptions of how raw data were prepared before analysis.
+
+  Prioritize passages that include explicit operational details
+  (what was done, how, with which criteria/parameters, and why).
+
+  STRICT EXCLUSIONS:
+
+  - Exclude model-based feature selection (e.g., Lasso, Random Forest importance,
+    stepwise regression, embedded selection methods).
+  - Exclude train/test split, cross-validation, and evaluation procedures.
+  - Exclude variable description, grouping, or conceptual categorisation.
+  - Exclude bare instance filtering reports WITHOUT procedural documentation
+    (e.g., "sample narrowed to X" without describing selection criteria or systematic method).
+    Instance selection is analytical operation, not preprocessing. Only retrieve
+    instance filtering if procedural details are present (e.g., "applied exclusion filter",
+    "used inclusion criteria", "systematic selection of...").
+
+  Only retrieve passages describing explicit preprocessing BEFORE modelling.
+
+k: 20

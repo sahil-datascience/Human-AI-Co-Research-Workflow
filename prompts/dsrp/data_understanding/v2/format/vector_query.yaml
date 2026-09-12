@@ -1,0 +1,16 @@
+name: data_understanding_v2_format_vector_query
+
+description: >
+  Retrieve passages describing the structure, organisation, and raw-content form of the data used in the study.
+
+query: >
+  Extract passages describing:
+  - file formats (CSV, JSON, XML, HTML, tables, matrices),
+  - raw text, images, videos, audio, transcripts,
+  - structured variables, weights, constraints, and objective-function inputs,
+  - schema or metadata structure,
+  - database or document organization,
+  - explicit claims that the data are structured, semi-structured, or unstructured,
+  - preprocessing that changes the representation or structure of the data.
+
+k: 25
