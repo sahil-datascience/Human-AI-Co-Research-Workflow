@@ -4,7 +4,7 @@ import json
 
 from utils.dsrp_state import DSRPState
 from utils.load_yaml_prompt import load_yaml_prompt
-from utils.llm_output_schemas.research_question_node_schemas import (
+from llm_output_schemas.research_question_node_schemas import (
     ResearchQuestionAuditorSchema,
     ResearchQuestionClassifierSchema,
     ResearchQuestionEvidenceSchema,

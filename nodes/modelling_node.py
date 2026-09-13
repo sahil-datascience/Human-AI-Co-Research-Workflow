@@ -5,7 +5,7 @@ from utils.load_yaml_prompt import load_yaml_prompt
 from utils.config_llm import set_llm
 import json
 from utils.dsrp_state import DSRPState
-from utils.llm_output_schemas.modelling_node_schemas import (
+from llm_output_schemas.modelling_node_schemas import (
     FoundationalAuditSchema,
     FoundationalClassifierSchema,
     GlobalModellingAuditSchema,

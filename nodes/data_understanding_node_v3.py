@@ -10,7 +10,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from utils.dsrp_state import DSRPState
 
-from utils.llm_output_schemas.data_understanding_node_schemas import (
+from llm_output_schemas.data_understanding_node_schemas import (
     Primary_labels_Schema,
     AuditorSchema,
 )

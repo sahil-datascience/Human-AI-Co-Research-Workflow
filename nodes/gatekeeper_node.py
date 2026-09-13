@@ -7,7 +7,7 @@ import json
 from utils.dsrp_state import DSRPState
 
 from utils.re_ranker import rerank_openrouter
-from utils.llm_output_schemas.gatekeeper_node_schemas import (
+from llm_output_schemas.gatekeeper_node_schemas import (
     GatekeeperAuditorSchema,
     GatekeeperClassifierSchema,
     GatekeeperEvidenceSchema,
